@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@400;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Chathura', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4F4F4F
+}
+
+.sub-title {
+  font-size: 36px;
+  line-height: 0.30;
+  font-weight: 700;
+  width: 80%;
+}
+
+.profile-image-container {
+  position: relative;
+  text-align: center;
+}
+
+.text-profile-img {
+  width: 80%;
+}
+
+.profile-img {
+  width: 55%;
+  position: absolute;
+  top: 0%;
+  left: 22%;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile {
+  background: #FAE6E7;
+  width: 50%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socials {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: row;
+  display: flex;
+}
+
+.socials div {
+  width: 42px;
+  height: 42px;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+
+.socials div img {
+  width: 32px;
+  height: 32px;
+}
